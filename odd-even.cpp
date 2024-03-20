@@ -10,7 +10,7 @@ int oddMeven(int numbers[], int size);
 int main() {
     int arr[] = {1, 8, 3}; 
     int size = sizeof(arr) / sizeof(arr[0]); 
-    cout << "Difference between sum of odd and even numbers: " << oddMeven(arr, size) << endl;
+    cout << "Difference between sum of odd and even numbers is: " << oddMeven(arr, size) << endl;
     return 0;
 }
 
